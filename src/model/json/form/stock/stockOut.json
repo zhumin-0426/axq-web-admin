@@ -1,0 +1,37 @@
+{
+  "add": {
+    "default": {
+      "purchanseType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "purchanseId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "documentMakerId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "traceJson": {
+        "skip": false,
+        "require": false,
+        "toStr": true,
+        "type": "array",
+        "value": []
+      },
+      "stockOutGoodsItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>StockOutGoodsItems",
+        "value": []
+      }
+    }
+  }
+}

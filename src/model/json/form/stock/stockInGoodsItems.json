@@ -1,0 +1,24 @@
+{
+  "add": {
+    "default": {
+      "goodsItems": {
+        "skip": true,
+        "require": true,
+        "type": "Object",
+        "value": {}
+      },
+      "goodsItemsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

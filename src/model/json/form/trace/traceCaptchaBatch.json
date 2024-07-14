@@ -1,0 +1,18 @@
+{
+  "add": {
+    "default": {
+      "generateCount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 50000
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+}

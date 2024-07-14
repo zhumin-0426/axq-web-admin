@@ -1,0 +1,16 @@
+{
+  "status": [
+    {
+      "value": 1,
+      "label": "直播中"
+    },
+    {
+      "value": 2,
+      "label": "停播"
+    },
+    {
+      "value": 3,
+      "label": "下播"
+    }
+  ]
+}

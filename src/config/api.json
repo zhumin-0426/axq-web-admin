@@ -1,0 +1,1040 @@
+{
+  "open": {
+    "url": {
+      "dev": "/apiOpen/",
+      "lcoal": "//localhost:4003/",
+      "test": "//apitest.aoxqwl.com/open/",
+      "prod": "//api.aoxqwl.com/open/"
+    },
+    "domain": {
+      "oss": {
+        "authorize": {
+          "method": "POST",
+          "url": "/oss/authorize"
+        }
+      },
+      "enum": {
+        "lst": {
+          "method": "POST",
+          "url": "/enum/lst"
+        }
+      },
+      "trace": {
+        "logInfo": {
+          "method": "POST",
+          "url": "/trace/logInfo"
+        },
+        "codeInfo": {
+          "method": "POST",
+          "url": "/trace/codeInfo"
+        },
+        "codeBindInfo": {
+          "method": "POST",
+          "url": "/trace/codeBindInfo"
+        },
+        "captchaInfo": {
+          "method": "POST",
+          "url": "/trace/captchaInfo"
+        },
+        "captchaBindList": {
+          "method": "POST",
+          "url": "/trace/captchaBindList"
+        }
+      },
+      "member": {
+        "inviteCodeWxEntry": {
+          "method": "POST",
+          "url": "/member/inviteCodeWxEntry"
+        }
+      },
+      "purchanse": {
+        "wxEntryUrl": {
+          "method": "POST",
+          "url": "/purchanse/wxEntryUrl"
+        }
+      },
+      "sys": {
+        "appVersion": {
+          "method": "POST",
+          "url": "/sys/appVersion"
+        }
+      }
+    }
+  },
+  "py": {
+    "url": {
+      "dev": "/apiPy/",
+      "lcoal": "//localhost:8100/",
+      "test": "//apipytest.aoxqwl.com/",
+      "prod": "//apipy.aoxqwl.com/"
+    },
+    "domain": {
+      "file": {
+        "distributorAchieveExcel": {
+          "method": "POST",
+          "url": "/file/distributorAchieveExcel"
+        },
+        "distributorWalletExcel": {
+          "method": "POST",
+          "url": "/file/distributorWalletExcel"
+        },
+        "distributorSelfEmployedLaborerExcel": {
+          "method": "POST",
+          "url": "/file/distributorSelfEmployedLaborerExcel"
+        },
+        "orderExcel": {
+          "method": "POST",
+          "url": "/file/orderExcel"
+        },
+        "shopExcel": {
+          "method": "POST",
+          "url": "/file/shopExcel"
+        },
+        "traceCodeDownloadUrl": {
+          "method": "POST",
+          "url": "/file/traceCodeDownloadUrl"
+        },
+        "traceCaptchaTxt": {
+          "method": "POST",
+          "url": "/file/traceCaptchaTxt"
+        },
+        "axqFeedbackExcel": {
+          "method": "POST",
+          "url": "/file/axqFeedbackExcel"
+        },
+        "couponItemCodeExcel": {
+          "method": "POST",
+          "url": "/file/couponItemCodeExcel"
+        }
+      }
+    }
+  },
+  "apiV1": {
+    "url": {
+      "dev": "/apiV1/",
+      "lcoal": "//localhost:11000/",
+      "test": "//apiV1test.aoxqwl.com/",
+      "prod": "//apiV1.aoxqwl.com/"
+    },
+    "domain": {
+      "trace": {
+        "getProductPathBySysCode": {
+          "method": "POST",
+          "url": "/trace/getProductPathBySysCode"
+        }
+      }
+    }
+  },
+  "admin": {
+    "url": {
+      "dev": "/apiAdmin/",
+      "lcoal": "//localhost:4000/",
+      "test": "//apitest.aoxqwl.com/admin/",
+      "prod": "//api.aoxqwl.com/admin/"
+    },
+    "domain": {
+      "axq": {
+        "staffLogin": {
+          "method": "POST",
+          "url": "/axq/staffLogin"
+        },
+        "verifyCode": {
+          "method": "GET",
+          "url": "/axq/verifyCode"
+        },
+        "staffLogout": {
+          "method": "POST",
+          "url": "/axq/staffLogout"
+        },
+        "staffPage": {
+          "method": "POST",
+          "url": "/axq/staffPage"
+        },
+        "staffInfo": {
+          "method": "POST",
+          "url": "/axq/staffInfo"
+        },
+        "staffAdd": {
+          "method": "POST",
+          "url": "/axq/staffAdd"
+        },
+        "staffUpdate": {
+          "method": "POST",
+          "url": "/axq/staffUpdate"
+        },
+        "staffAccessRuleList": {
+          "method": "POST",
+          "url": "/axq/staffAccessRuleList"
+        },
+        "deptPage": {
+          "method": "POST",
+          "url": "/axq/deptPage"
+        },
+        "deptInfo": {
+          "method": "POST",
+          "url": "/axq/deptInfo"
+        },
+        "deptAdd": {
+          "method": "POST",
+          "url": "/axq/deptAdd"
+        },
+        "deptUpdate": {
+          "method": "POST",
+          "url": "/axq/deptUpdate"
+        },
+        "jobPage": {
+          "method": "POST",
+          "url": "/axq/jobPage"
+        },
+        "jobInfo": {
+          "method": "POST",
+          "url": "/axq/jobInfo"
+        },
+        "jobAdd": {
+          "method": "POST",
+          "url": "/axq/jobAdd"
+        },
+        "jobUpdate": {
+          "method": "POST",
+          "url": "/axq/jobUpdate"
+        },
+        "accessRulePage": {
+          "method": "POST",
+          "url": "/axq/accessRulePage"
+        },
+        "accessRuleList": {
+          "method": "POST",
+          "url": "/axq/accessRuleList"
+        },
+        "accessRuleInfo": {
+          "method": "POST",
+          "url": "/axq/accessRuleInfo"
+        },
+        "accessRuleAdd": {
+          "method": "POST",
+          "url": "/axq/accessRuleAdd"
+        },
+        "accessRuleUpdate": {
+          "method": "POST",
+          "url": "/axq/accessRuleUpdate"
+        },
+        "videoPage": {
+          "method": "POST",
+          "url": "/axq/videoPage"
+        },
+        "videoAdd": {
+          "method": "POST",
+          "url": "/axq/videoAdd"
+        },
+        "videoInfo": {
+          "method": "POST",
+          "url": "/axq/videoInfo"
+        },
+        "videoUpdate": {
+          "method": "POST",
+          "url": "/axq/videoUpdate"
+        },
+        "introducePage": {
+          "method": "POST",
+          "url": "/axq/introducePage"
+        },
+        "introduceInfo": {
+          "method": "POST",
+          "url": "/axq/introduceInfo"
+        },
+        "introduceAdd": {
+          "method": "POST",
+          "url": "/axq/introduceAdd"
+        },
+        "introduceUpdate": {
+          "method": "POST",
+          "url": "/axq/introduceUpdate"
+        },
+        "noticePage": {
+          "method": "POST",
+          "url": "/axq/noticePage"
+        },
+        "noticeInfo": {
+          "method": "POST",
+          "url": "/axq/noticeInfo"
+        },
+        "noticeAdd": {
+          "method": "POST",
+          "url": "/axq/noticeAdd"
+        },
+        "noticeUpdate": {
+          "method": "POST",
+          "url": "/axq/noticeUpdate"
+        },
+        "articlePage": {
+          "method": "POST",
+          "url": "/axq/articlePage"
+        },
+        "articleInfo": {
+          "method": "POST",
+          "url": "/axq/articleInfo"
+        },
+        "articleAdd": {
+          "method": "POST",
+          "url": "/axq/articleAdd"
+        },
+        "articleUpdate": {
+          "method": "POST",
+          "url": "/axq/articleUpdate"
+        },
+        "articleDelete": {
+          "method": "POST",
+          "url": "/axq/articleDelete"
+        },
+        "developTimelinePage": {
+          "method": "POST",
+          "url": "/axq/developTimelinePage"
+        },
+        "developTimelineInfo": {
+          "method": "POST",
+          "url": "/axq/developTimelineInfo"
+        },
+        "developTimelineAdd": {
+          "method": "POST",
+          "url": "/axq/developTimelineAdd"
+        },
+        "developTimelineUpdate": {
+          "method": "POST",
+          "url": "/axq/developTimelineUpdate"
+        },
+        "selfEmployedLaborerPage": {
+          "method": "POST",
+          "url": "/axq/selfEmployedLaborerPage"
+        },
+        "selfEmployedLaborerAdd": {
+          "method": "POST",
+          "url": "/axq/selfEmployedLaborerAdd"
+        },
+        "selfEmployedLaborerInfo": {
+          "method": "POST",
+          "url": "/axq/selfEmployedLaborerInfo"
+        },
+        "selfEmployedLaborerUpdate": {
+          "method": "POST",
+          "url": "/axq/selfEmployedLaborerUpdate"
+        },
+        "/selfEmployedLaborerChangeStatus": {
+          "method": "POST",
+          "url": "/axq//selfEmployedLaborerChangeStatus"
+        },
+        "materialPage": {
+          "method": "POST",
+          "url": "/axq/materialPage"
+        },
+        "materialInfo": {
+          "method": "POST",
+          "url": "/axq/materialInfo"
+        },
+        "materialAdd": {
+          "method": "POST",
+          "url": "/axq/materialAdd"
+        },
+        "materialUpdate": {
+          "method": "POST",
+          "url": "/axq/materialUpdate"
+        },
+        "feedbackPage": {
+          "method": "POST",
+          "url": "/axq/feedbackPage"
+        },
+        "feedbackInfo": {
+          "method": "POST",
+          "url": "/axq/feedbackInfo"
+        },
+        "contractTemplatePage": {
+          "method": "POST",
+          "url": "axq/contractTemplatePage"
+        },
+        "contractTemplateInfo": {
+          "method": "POST",
+          "url": "axq/contractTemplateInfo"
+        },
+        "contractAdd": {
+          "method": "POST",
+          "url": "/axq/contractAdd"
+        },
+        "contractDelete": {
+          "method": "POST",
+          "url": "/axq/contractDelete"
+        },
+        "contractUpdate": {
+          "method": "POST",
+          "url": "/axq/contractUpdate"
+        },
+        "contractDoWorkflow": {
+          "method": "POST",
+          "url": "/axq/contractDoWorkflow"
+        }
+      },
+      "goods": {
+        "page": {
+          "method": "POST",
+          "url": "/goods/page"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/goods/info"
+        },
+        "add": {
+          "method": "POST",
+          "url": "/goods/add"
+        },
+        "update": {
+          "method": "POST",
+          "url": "/goods/update"
+        },
+        "updateSingleField": {
+          "method": "POST",
+          "url": "/goods/updateSingleField"
+        },
+        "categoryPage": {
+          "method": "POST",
+          "url": "/goods/categoryPage"
+        },
+        "categoryAdd": {
+          "method": "POST",
+          "url": "/goods/categoryAdd"
+        },
+        "categoryInfo": {
+          "method": "POST",
+          "url": "/goods/categoryInfo"
+        },
+        "categoryUpdate": {
+          "method": "POST",
+          "url": "/goods/categoryUpdate"
+        },
+        "goodsItemsInfo": {
+          "method": "POST",
+          "url": "/goods/goodsItemsInfo"
+        },
+        "goodsItemsPage": {
+          "method": "POST",
+          "url": "/goods/goodsItemsPage"
+        },
+        "specCategoryPage": {
+          "method": "POST",
+          "url": "/goods/specCategoryPage"
+        },
+        "specCategoryInfo": {
+          "method": "POST",
+          "url": "/goods/specCategoryInfo"
+        },
+        "specCategoryAdd": {
+          "method": "POST",
+          "url": "/goods/specCategoryAdd"
+        },
+        "specCategoryUpdate": {
+          "method": "POST",
+          "url": "/goods/specCategoryUpdate"
+        },
+        "seriesPage": {
+          "method": "POST",
+          "url": "/goods/seriesPage"
+        },
+        "seriesInfo": {
+          "method": "POST",
+          "url": "/goods/seriesInfo"
+        },
+        "seriesAdd": {
+          "method": "POST",
+          "url": "/goods/seriesAdd"
+        },
+        "seriesUpdate": {
+          "method": "POST",
+          "url": "/goods/seriesUpdate"
+        }
+      },
+      "stock": {
+        "stockInPage": {
+          "method": "POST",
+          "url": "/stock/stockInPage"
+        },
+        "stockInAdd": {
+          "method": "POST",
+          "url": "/stock/stockInAdd"
+        },
+        "stockInMinus": {
+          "method": "POST",
+          "url": "/stock/stockInMinus"
+        },
+        "stockInInfo": {
+          "method": "POST",
+          "url": "/stock/stockInInfo"
+        },
+        "stockOutPage": {
+          "method": "POST",
+          "url": "/stock/stockOutPage"
+        },
+        "stockOutAdd": {
+          "method": "POST",
+          "url": "/stock/stockOutAdd"
+        },
+        "stockOutInfo": {
+          "method": "POST",
+          "url": "/stock/stockOutInfo"
+        },
+        "outLogisticsFormUpdate": {
+          "method": "POST",
+          "url": "/stock/outLogisticsFormUpdate"
+        },
+        "stockCheckPage": {
+          "method": "POST",
+          "url": "/stock/stockCheckPage"
+        },
+        "stockCheckAdd": {
+          "method": "POST",
+          "url": "/stock/stockCheckAdd"
+        },
+        "stockCheckInfo": {
+          "method": "POST",
+          "url": "/stock/stockCheckInfo"
+        },
+        "remarkUpdate": {
+          "method": "POST",
+          "url": "/stock/remarkUpdate"
+        },
+        "deliveryPage": {
+          "method": "POST",
+          "url": "/stock/deliveryPage"
+        },
+        "deliveryAdd": {
+          "method": "POST",
+          "url": "/stock/deliveryAdd"
+        },
+        "deliveryInfo": {
+          "method": "POST",
+          "url": "/stock/deliveryInfo"
+        },
+        "deliveryUpdateStatus": {
+          "method": "POST",
+          "url": "/stock/deliveryUpdateStatus"
+        }
+      },
+      "purchanse": {
+        "page": {
+          "method": "POST",
+          "url": "/purchanse/page"
+        },
+        "add": {
+          "method": "POST",
+          "url": "/purchanse/add"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/purchanse/info"
+        },
+        "update": {
+          "method": "POST",
+          "url": "/purchanse/update"
+        },
+        "payment": {
+          "method": "POST",
+          "url": "/purchanse/payment"
+        },
+        "updateStatus": {
+          "method": "POST",
+          "url": "/purchanse/updateStatus"
+        },
+        "callPrint": {
+          "method": "POST",
+          "url": "/purchanse/callPrint"
+        },
+        "updateSingleField": {
+          "method": "POST",
+          "url": "/purchanse/updateSingleField"
+        }
+      },
+      "member": {
+        "page": {
+          "method": "POST",
+          "url": "/member/page"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/member/info"
+        },
+        "updateSingleField": {
+          "method": "POST",
+          "url": "/member/updateSingleField"
+        },
+        "updateLogPage": {
+          "method": "POST",
+          "url": "/member/updateLogPage"
+        },
+        "achieveList": {
+          "method": "POST",
+          "url": "/member/achieveList"
+        },
+        "account": {
+          "method": "POST",
+          "url": "/member/account"
+        },
+        "addressPage": {
+          "method": "POST",
+          "url": "/member/addressPage"
+        },
+        "addressAdd": {
+          "method": "POST",
+          "url": "/member/addressAdd"
+        },
+        "addressDelete": {
+          "method": "POST",
+          "url": "/member/addressDelete"
+        },
+        "transferAdd": {
+          "method": "POST",
+          "url": "/member/transferAdd"
+        },
+        "transferPage": {
+          "method": "POST",
+          "url": "/member/transferPage"
+        },
+        "transferInfo": {
+          "method": "POST",
+          "url": "/member/transferInfo"
+        },
+        "achieveTransfer": {
+          "method": "POST",
+          "url": "/member/achieveTransfer"
+        },
+        "achieveTransferLogPage": {
+          "method": "POST",
+          "url": "/member/achieveTransferLogPage"
+        },
+        "accountUpdate": {
+          "method": "POST",
+          "url": "/member/accountUpdate"
+        },
+        "accountTopUp": {
+          "method": "POST",
+          "url": "/member/accountTopUp"
+        },
+        "accountTopUpPage": {
+          "method": "POST",
+          "url": "/member/accountTopUpPage"
+        },
+        "accountUpdateLogPage": {
+          "method": "POST",
+          "url": "/member/accountUpdateLogPage"
+        },
+        "loginAuthorizeAdd": {
+          "method": "POST",
+          "url": "/member/loginAuthorizeAdd"
+        },
+        "loginAuthorizeDelete": {
+          "method": "POST",
+          "url": "/member/loginAuthorizeDelete"
+        },
+        "achieveInfo": {
+          "method": "POST",
+          "url": "/member/achieveInfo"
+        },
+        "achieveUpdate": {
+          "method": "POST",
+          "url": "/member/achieveUpdate"
+        },
+        "achieveUpdateLogPage": {
+          "method": "POST",
+          "url": "/member/achieveUpdateLogPage"
+        },
+        "achieveChangeLogPage": {
+          "method": "POST",
+          "url": "member/achieveChangeLogPage"
+        },
+        "goodsSeriesPrestoreUpdate": {
+          "method": "POST",
+          "url": "/member/goodsSeriesPrestoreUpdate"
+        },
+        "goodsSeriesPrestoreUpdateLogPage": {
+          "method": "POST",
+          "url": "/member/goodsSeriesPrestoreUpdateLogPage"
+        },
+        "goodsSeriesPrestoreChangeLogPage": {
+          "method": "POST",
+          "url": "/member/goodsSeriesPrestoreChangeLogPage"
+        },
+        "balanceTransferAdd": {
+          "method": "POST",
+          "url": "/member/balanceTransferAdd"
+        },
+        "balanceTransferPage": {
+          "method": "POST",
+          "url": "/member/balanceTransferPage"
+        },
+        "accountChangeLogPage": {
+          "method": "POST",
+          "url": "/member/accountChangeLogPage"
+        },
+        "chainBlacklistAdd": {
+          "method": "POST",
+          "url": "/member/chainBlacklistAdd"
+        },
+        "chainBlacklistDelete": {
+          "method": "POST",
+          "url": "/member/chainBlacklistDelete"
+        }
+      },
+      "shop": {
+        "page": {
+          "method": "POST",
+          "url": "/shop/page"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/shop/info"
+        },
+        "updateLogPage": {
+          "method": "POST",
+          "url": "/shop/updateLogPage"
+        },
+        "updateSingleField": {
+          "method": "POST",
+          "url": "/shop/updateSingleField"
+        },
+        "delete": {
+          "method": "POST",
+          "url": "/shop/delete"
+        },
+        "depositAdd": {
+          "method": "POST",
+          "url": "/shop/depositAdd"
+        }
+      },
+      "approval": {
+        "page": {
+          "method": "POST",
+          "url": "/approval/page"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/approval/info"
+        },
+        "add": {
+          "method": "POST",
+          "url": "/approval/add"
+        },
+        "update": {
+          "method": "POST",
+          "url": "/approval/update"
+        },
+        "doAgree": {
+          "method": "POST",
+          "url": "/approval/doAgree"
+        },
+        "retreat": {
+          "method": "POST",
+          "url": "/approval/retreat"
+        },
+        "submit": {
+          "method": "POST",
+          "url": "/approval/submit"
+        },
+        "updateStatus": {
+          "method": "POST",
+          "url": "/approval/updateStatus"
+        },
+        "typePage": {
+          "method": "POST",
+          "url": "/approval/typePage"
+        },
+        "typeAdd": {
+          "method": "POST",
+          "url": "/approval/typeAdd"
+        },
+        "typeInfo": {
+          "method": "POST",
+          "url": "/approval/typeInfo"
+        },
+        "typeUpdate": {
+          "method": "POST",
+          "url": "/approval/typeUpdate"
+        },
+        "shopCcbConfigVerify": {
+          "method": "POST",
+          "url": "/approval/shopCcbConfigVerify"
+        }
+      },
+      "region": {
+        "allocatePage": {
+          "method": "POST",
+          "url": "/region/allocatePage"
+        },
+        "allocateAdd": {
+          "method": "POST",
+          "url": "/region/allocateAdd"
+        },
+        "allocateUpdate": {
+          "method": "POST",
+          "url": "/region/allocateUpdate"
+        },
+        "allocateDelete": {
+          "method": "POST",
+          "url": "/region/allocateDelete"
+        },
+        "allocateInfo": {
+          "method": "POST",
+          "url": "/region/allocateInfo"
+        },
+        "allocateAgentAdd": {
+          "method": "POST",
+          "url": "/region/allocateAgentAdd"
+        },
+        "allocateReleaseAdd":{
+          "method": "POST",
+          "url": "/region/allocateReleaseAdd"
+        },
+        "allocateReleasePage":{
+          "method": "POST",
+          "url": "/region/allocateReleasePage"
+        }
+      },
+      "trace": {
+        "codeBatchPage": {
+          "method": "POST",
+          "url": "/trace/codeBatchPage"
+        },
+        "codeBatchAdd": {
+          "method": "POST",
+          "url": "/trace/codeBatchAdd"
+        },
+        "captchaBatchPage": {
+          "method": "POST",
+          "url": "/trace/captchaBatchPage"
+        },
+        "captchaBatchAdd": {
+          "method": "POST",
+          "url": "/trace/captchaBatchAdd"
+        },
+        "captchaBindAdd": {
+          "method": "POST",
+          "url": "/trace/captchaBindAdd"
+        },
+        "captchaBindDelete": {
+          "method": "POST",
+          "url": "/trace/captchaBindDelete"
+        },
+        "logFlush": {
+          "method": "POST",
+          "url": "/trace/logFlush"
+        }
+      },
+      "revert": {
+        "formPage": {
+          "method": "POST",
+          "url": "/revert/formPage"
+        },
+        "formAdd": {
+          "method": "POST",
+          "url": "/revert/formAdd"
+        },
+        "formInfo": {
+          "method": "POST",
+          "url": "/revert/formInfo"
+        },
+        "formUpdate": {
+          "method": "POST",
+          "url": "/revert/formUpdate"
+        },
+        "formPayment": {
+          "method": "POST",
+          "url": "/revert/formPayment"
+        },
+        "formDelete": {
+          "method": "POST",
+          "url": "/revert/formDelete"
+        },
+        "updateSingleField": {
+          "method": "POST",
+          "url": "/revert/updateSingleField"
+        }
+      },
+      "coupon": {
+        "page": {
+          "method": "POST",
+          "url": "/coupon/page"
+        },
+        "add": {
+          "method": "POST",
+          "url": "/coupon/add"
+        },
+        "info": {
+          "method": "POST",
+          "url": "/coupon/info"
+        },
+        "update": {
+          "method": "POST",
+          "url": "/coupon/update"
+        }
+      },
+      "activity": {
+        "typePage": {
+          "method": "POST",
+          "url": "/activity/typePage"
+        },
+        "typeAdd": {
+          "method": "POST",
+          "url": "/activity/typeAdd"
+        },
+        "typeInfo": {
+          "method": "POST",
+          "url": "/activity/typeInfo"
+        },
+        "typeUpdate": {
+          "method": "POST",
+          "url": "/activity/typeUpdate"
+        }
+      },
+      "sys": {
+        "bankPage": {
+          "method": "POST",
+          "url": "/sys/bankPage"
+        },
+        "bankAdd": {
+          "method": "POST",
+          "url": "/sys/bankAdd"
+        },
+        "bankInfo": {
+          "method": "POST",
+          "url": "/sys/bankInfo"
+        },
+        "bankUpdate": {
+          "method": "POST",
+          "url": "/sys/bankUpdate"
+        },
+        "expressPage": {
+          "method": "POST",
+          "url": "/sys/expressPage"
+        },
+        "expressAdd": {
+          "method": "POST",
+          "url": "/sys/expressAdd"
+        },
+        "expressInfo": {
+          "method": "POST",
+          "url": "/sys/expressInfo"
+        },
+        "expressUpdate": {
+          "method": "POST",
+          "url": "/sys/expressUpdate"
+        }
+      },
+      "cashRegister": {
+        "page": {
+          "method": "POST",
+          "url": "/cashRegister/page"
+        },
+        "extScreenMaterialPage": {
+          "method": "POST",
+          "url": "/cashRegister/extScreenMaterialPage"
+        },
+        "extScreenMaterialAdd": {
+          "method": "POST",
+          "url": "/cashRegister/extScreenMaterialAdd"
+        },
+        "extScreenMaterialDelete": {
+          "method": "POST",
+          "url": "/cashRegister/extScreenMaterialDelete"
+        },
+        "extScreenMaterialList": {
+          "method": "POST",
+          "url": "/cashRegister/extScreenMaterialList"
+        },
+        "extScreenMaterialSelect": {
+          "method": "POST",
+          "url": "/cashRegister/extScreenMaterialSelect"
+        }
+      },
+      "ma": {
+        "bannerPage": {
+          "method": "POST",
+          "url": "/ma/bannerPage"
+        },
+        "bannerAdd": {
+          "method": "POST",
+          "url": "/ma/bannerAdd"
+        },
+        "bannerUpdate": {
+          "method": "POST",
+          "url": "/ma/bannerUpdate"
+        },
+        "bannerInfo": {
+          "method": "POST",
+          "url": "/ma/bannerInfo"
+        },
+        "bannerDelete": {
+          "method": "POST",
+          "url": "/ma/bannerDelete"
+        }
+      },
+      "logistics": {
+        "formInfo": {
+          "method": "POST",
+          "url": "/logistics/formInfo"
+        }
+      },
+      "live": {
+        "roomPage": {
+          "method": "POST",
+          "url": "/live/roomPage"
+        },
+        "roomInfo": {
+          "method": "POST",
+          "url": "/live/roomInfo"
+        },
+        "roomUpdate": {
+          "method": "POST",
+          "url": "/live/roomUpdate"
+        },
+        "recordPage": {
+          "method": "POST",
+          "url": "/live/recordPage"
+        },
+        "recordUpdate": {
+          "method": "POST",
+          "url": "/live/recordUpdate"
+        }
+      }
+    }
+  },
+  "datav": {
+    "url": {
+      "dev": "//127.0.0.1:4005/",
+      "lcoal": "//127.0.0.1:4005/",
+      "test": "//apitest.aoxqwl.com/datav/",
+      "prod": "//api.aoxqwl.com/datav/"
+    },
+    "domain": {
+      "datav": {
+        "pageInfo": {
+          "method": "POST",
+          "url": "page/info"
+        },
+        "goodsPage": {
+          "method": "POST",
+          "url": "goods/page"
+        },
+        "goodsCategoryList": {
+          "method": "POST",
+          "url": "goods/categoryList"
+        },
+        "goodsInfo": {
+          "method": "POST",
+          "url": "goods/info"
+        },
+        "axqStaff": {
+          "method": "POST",
+          "url": "axq/staffPage"
+        },
+        "regionList": {
+          "method": "POST",
+          "url": "region/list"
+        }
+      }
+    }
+  }
+}

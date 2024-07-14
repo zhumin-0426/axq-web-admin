@@ -1,0 +1,423 @@
+[
+  {
+    "title": "Dashbord",
+    "path": "/index",
+    "icon": "icon-shouye"
+  },
+  {
+    "title": "数据分析",
+    "path": "/datav",
+    "icon": "icon-fenxi",
+    "sub": [
+      {
+        "title": "仓库数据",
+        "path": "/datav/stock",
+        "accessRuleId": 55
+      },
+      {
+        "title": "店铺区域",
+        "path": "/datav/region-shop",
+        "accessRuleId": 57
+      }
+    ]
+  },
+  {
+    "title": "商品管理",
+    "path": "/goods",
+    "icon": "icon-shangpin",
+    "sub": [
+      {
+        "title": "商品列表",
+        "path": "/goods/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "分类列表",
+        "path": "/goods-category/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "规格分类",
+        "path": "/goods-sepc-category/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "组合管理",
+        "path": "/goods-series/list",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "工作审批",
+    "path": "/approval",
+    "icon": "icon-shenpi",
+    "sub": [
+      {
+        "title": "审批列表",
+        "path": "/approval/list",
+        "accessRuleId": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          54,
+          56
+        ]
+      },
+      {
+        "title": "审核类型",
+        "path": "/approval-type/list",
+        "accessRuleId": 7
+      }
+    ]
+  },
+  {
+    "title": "库房管理",
+    "path": "/stock",
+    "icon": "icon-ziyuan72",
+    "sub": [
+      {
+        "title": "送货列表",
+        "path": "/stock-delivery/list",
+        "accessRuleId": [
+          53
+        ]
+      },
+      {
+        "title": "入库列表",
+        "path": "/stock-in/list",
+        "accessRuleId": [
+          42
+        ]
+      },
+      {
+        "title": "入库清除",
+        "path": "/stock-in/minus",
+        "accessRuleId": [
+          52
+        ]
+      },
+      {
+        "title": "待出库单",
+        "path": "/purchanse-unstockout/list",
+        "accessRuleId": [
+          43
+        ]
+      },
+      {
+        "title": "出库列表",
+        "path": "/stock-out/list",
+        "accessRuleId": [
+          43
+        ]
+      },
+      {
+        "title": "库存盘点",
+        "path": "/stock-check/list",
+        "accessRuleId": [
+          44
+        ]
+      },
+      {
+        "title": "调换货单",
+        "path": "/revert-form/list",
+        "accessRuleId": [
+          45
+        ]
+      },
+      {
+        "title": "库存查询",
+        "path": "/stock/query",
+        "accessRuleId": [
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "title": "客服下单",
+    "path": "/purchanse",
+    "icon": "icon-caigou",
+    "sub": [
+      {
+        "title": "订单列表",
+        "path": "/purchanse/list",
+        "accessRuleId": [
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "title": "会员代理",
+    "path": "/member",
+    "icon": "icon-user",
+    "sub": [
+      {
+        "title": "会员列表",
+        "path": "/member/list",
+        "accessRuleId": [
+          31,
+          32
+        ]
+      },
+      {
+        "title": "团队挪动",
+        "path": "/member-transfer/list",
+        "accessRuleId": [
+          31,
+          32
+        ]
+      },
+      {
+        "title": "会员关系",
+        "path": "/member-chain",
+        "accessRuleId": [
+          31,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "title": "店铺管理",
+    "path": "/shop",
+    "icon": "icon-shanghu",
+    "sub": [
+      {
+        "title": "店铺列表",
+        "path": "/shop/list",
+        "accessRuleId": [
+          34,
+          35
+        ]
+      },
+      {
+        "title": "收银管理",
+        "path": "/cash-register",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "区域管理",
+    "path": "/region",
+    "icon": "icon-area",
+    "sub": [
+      {
+        "title": "区域列表",
+        "path": "/region-allocate/list",
+        "accessRuleId": [
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "title": "商品溯源",
+    "path": "/trace",
+    "icon": "icon-genzongdingwei",
+    "sub": [
+      {
+        "title": "生成批次",
+        "path": "/trace-batch/list",
+        "accessRuleId": [
+          37
+        ]
+      },
+      {
+        "title": "防伪绑定",
+        "path": "/trace/bind",
+        "accessRuleId": [
+          38
+        ]
+      },
+      {
+        "title": "溯源查询",
+        "path": "/trace/query",
+        "accessRuleId": [
+          39
+        ]
+      },
+      {
+        "title": "清除溯源",
+        "path": "/trace/flush",
+        "accessRuleId": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "title": "营销推广",
+    "path": "/promote",
+    "icon": "icon-yingxiao",
+    "sub": [
+      {
+        "title": "代金券",
+        "path": "/coupon/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "活动类型",
+        "path": "/activity-type/list",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "微信程序",
+    "path": "/ma",
+    "icon": "icon-xiaochengxu",
+    "sub": [
+      {
+        "title": "轮播图",
+        "path": "/ma-banner/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "直播管理",
+        "path": "/ma-live/index",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "企业信息",
+    "path": "/axq",
+    "icon": "icon-web-icon-",
+    "sub": [
+      {
+        "title": "公司视频",
+        "path": "/axq-video/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "公司通知",
+        "path": "/axq-notice/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "媒体报导",
+        "path": "/axq-article/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "素材管理",
+        "path": "/axq-material/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "发展历程",
+        "path": "/axq-develop-timeline/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "企业介绍",
+        "path": "/axq-introduce",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "个体账户",
+        "path": "/axq-self-employed-laborer/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "意见反馈",
+        "path": "/axq-feedback/list",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "组织架构",
+    "path": "/axq",
+    "icon": "icon-fl-zuzhi",
+    "sub": [
+      {
+        "title": "部门列表",
+        "path": "/axq-dept/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "职位列表",
+        "path": "/axq-job/list",
+        "accessRuleId": 9999
+      },
+      {
+        "title": "职员列表",
+        "path": "/axq-staff/list",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "用户权限",
+    "path": "/axq-access",
+    "icon": "icon-quanxian",
+    "sub": [
+      {
+        "title": "权限列表",
+        "path": "/axq-access-rule/list",
+        "accessRuleId": 9999
+      }
+    ]
+  },
+  {
+    "title": "系统设置",
+    "path": "/sys",
+    "icon": "icon-shezhi",
+    "sub": [
+      {
+        "title": "物流配置",
+        "path": "/sys-express/list",
+        "accessRuleId": [
+          47
+        ]
+      },
+      {
+        "title": "收款银行",
+        "path": "/sys-bank/list",
+        "accessRuleId": [
+          48
+        ]
+      },
+      {
+        "title": "打印服务",
+        "path": "/sys-print-task",
+        "accessRuleId": [
+          49
+        ]
+      }
+    ]
+  },
+  {
+    "title": "账户中心",
+    "path": "/account",
+    "icon": "icon-geren",
+    "sub": [
+      {
+        "title": "用户资料",
+        "path": "/account/profile"
+      },
+      {
+        "title": "账户设置",
+        "path": "/account/setting"
+      }
+    ]
+  }
+]

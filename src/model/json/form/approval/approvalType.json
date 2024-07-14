@@ -1,0 +1,52 @@
+{
+  "add": {
+    "default": {
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "description": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "approvalWorkflowList": {
+        "skip": false,
+        "require": true,
+        "type": "array>ApprovalWorkflow",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "approvalWorkflowList": {
+        "skip": false,
+        "require": true,
+        "type": "array>ApprovalWorkflow",
+        "value": []
+      }
+    }
+  }
+}

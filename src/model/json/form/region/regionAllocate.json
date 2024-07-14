@@ -1,0 +1,172 @@
+{
+  "add": {
+    "default": {
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "provinceId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "cityId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "cityName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "districtId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "districtName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "remark": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "note": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "visible": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "regionAllocateAgent": {
+        "skip": false,
+        "require": false,
+        "type": "object>RegionAllocateAgent",
+        "value": null
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "provinceId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "cityId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "cityName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "districtId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "districtName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "remark": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "note": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "visible": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "isEnableUnlimitShopApply": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

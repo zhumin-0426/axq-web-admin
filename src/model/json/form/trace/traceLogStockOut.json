@@ -1,0 +1,30 @@
+{
+  "add": {
+    "default": {
+      "code": {
+        "skip": true,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "captcha": {
+        "skip": true,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "goodsItemsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "codeBindId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

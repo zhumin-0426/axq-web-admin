@@ -1,0 +1,24 @@
+{
+  "status": [
+    {
+      "value": 1,
+      "label": "待入库"
+    },
+    {
+      "value": 2,
+      "label": "部分入库"
+    },
+    {
+      "value": 3,
+      "label": "已入库"
+    },
+    {
+      "value": 4,
+      "label": "待审核"
+    },
+    {
+      "value": 5,
+      "label": "异常"
+    }
+  ]
+}

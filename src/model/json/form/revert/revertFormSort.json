@@ -1,0 +1,66 @@
+{
+  "add": {
+    "default": {
+      "goodsItems": {
+        "skip": true,
+        "require": true,
+        "type": "Object",
+        "value": {}
+      },
+      "goodsItemsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "skipRowValue": 0,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "goodsItems": {
+        "skip": true,
+        "require": true,
+        "type": "Object",
+        "value": {}
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "goodsItemsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "skipRowValue": 0,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

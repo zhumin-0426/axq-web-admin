@@ -1,0 +1,232 @@
+{
+  "add": {
+    "default": {
+      "goodsSeries": {
+        "skip": true,
+        "require": true,
+        "type": "object",
+        "value": {}
+      },
+      "categoryId": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "specCategoryId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "title": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "thumbnail": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "gallery": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountCost": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "detailMobileText": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "isExchange": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isInActivity": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isShowOnMa": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "goodsItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsItems",
+        "value": []
+      },
+      "isRequirePackFee": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "categoryId": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "specCategoryId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "title": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "thumbnail": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "gallery": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountCost": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "detailMobileText": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "isExchange": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isInActivity": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isShowOnMa": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isShowOnShop": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "goodsItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsItems",
+        "value": []
+      },
+      "isRequirePackFee": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      }
+    }
+  }
+}

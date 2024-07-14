@@ -1,0 +1,45 @@
+.popup {
+    &-center {
+        display       : flex;
+        flex-direction: column;
+        width         : 800px;
+        height        : 500px;
+
+        .c-header {
+            position       : relative;
+            display        : flex;
+            align-items    : center;
+            justify-content: space-between;
+            height         : 50px;
+            padding        : 0 20px;
+            border-bottom  : 1px solid #ebeef5;
+
+            &:before {
+                position  : absolute;
+                content   : "";
+                top       : 10px;
+                left      : 5px;
+                width     : 3px;
+                height    : 30px;
+                background: #2d8cf0;
+            }
+        }
+
+        .c-content {
+            position       : relative;
+            display        : flex;
+            justify-content: center;
+            flex           : 1;
+            overflow-y     : auto;
+        }
+
+        .c-footer {
+            display        : flex;
+            align-items    : center;
+            justify-content: space-between;
+            height         : 50px;
+            padding        : 0 20px;
+            border-top     : 1px solid #ebeef5;
+        }
+    }
+}

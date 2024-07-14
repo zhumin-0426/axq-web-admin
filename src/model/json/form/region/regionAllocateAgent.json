@@ -1,0 +1,18 @@
+{
+  "add": {
+    "default": {
+      "memberId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      }
+    }
+  }
+}

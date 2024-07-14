@@ -1,0 +1,34 @@
+{
+  "type": [
+    {
+      "value": 1,
+      "label": "平台挪动"
+    },
+    {
+      "value": 2,
+      "label": "店铺挪动"
+    },
+    {
+      "value": 3,
+      "label": "黑名单功能挪动"
+    },
+    {
+      "value": 4,
+      "label": "店铺转让"
+    }
+  ],
+  "status": [
+    {
+      "value": 1,
+      "label": "进行中"
+    },
+    {
+      "value": 2,
+      "label": "成功"
+    },
+    {
+      "value": 3,
+      "label": "失败"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": [
+    {
+      "value": 1,
+      "label": "傲雪棋"
+    },
+    {
+      "value": 2,
+      "label": "思雪"
+    }
+  ],
+  "status": [
+    {
+      "value": 1,
+      "label": "在售"
+    },
+    {
+      "value": 0,
+      "label": "下架"
+    }
+  ]
+}

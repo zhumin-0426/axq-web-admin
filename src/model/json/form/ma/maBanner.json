@@ -1,0 +1,136 @@
+{
+  "add": {
+    "default": {
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "imgUrl": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "goodsId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "maPath": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "url": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "priority": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isExpire": {
+        "skip": true,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "expireTime": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "imgUrl": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "goodsId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "maPath": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "url": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "priority": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isExpire": {
+        "skip": true,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "expireTime": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  }
+}

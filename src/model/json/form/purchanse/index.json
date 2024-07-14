@@ -1,0 +1,388 @@
+{
+  "add": {
+    "default": {
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "memberId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "axqSelfEmployedLaborerId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "achieveTime": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "recipient": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "recipientMobile": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "provinceId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "cityId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "cityName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "districtId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "districtName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "fullAddress": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amountActual": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentIsUseBalance": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentWeixinAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentAlipayAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentCashAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentBankJson": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "paymentVoucherJson": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "sysExpressId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "printType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "deliveryType": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "purchanseGoodsItemsList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGoodsItems",
+        "value": []
+      },
+      "purchanseGoodsSeriesList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGoodsSeries",
+        "value": []
+      },
+      "purchanseGiftList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGift",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "member": {
+        "skip": true,
+        "require": false,
+        "type": "int",
+        "value": {}
+      },
+      "sysExpress": {
+        "skip": true,
+        "require": false,
+        "type": "int",
+        "value": {}
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "sn": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "approvalId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "genType": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "isNewDistributor": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "memberId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "axqSelfEmployedLaborerId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "achieveTime": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "recipient": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "recipientMobile": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "provinceId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "cityId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "cityName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "districtId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "districtName": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "fullAddress": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amountActual": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentIsUseBalance": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentWeixinAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentAlipayAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentCashAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentBankJson": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "sysExpressId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "paymentVoucherJson": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "printType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "deliveryType": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "checkStatus": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "purchanseGoodsItemsList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGoodsItems",
+        "value": []
+      },
+      "purchanseGoodsSeriesList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGoodsSeries",
+        "value": []
+      },
+      "purchanseGiftList": {
+        "skip": false,
+        "require": false,
+        "type": "array>PurchanseGift",
+        "value": []
+      }
+    }
+  }
+}

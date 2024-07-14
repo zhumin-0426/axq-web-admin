@@ -1,0 +1,52 @@
+{
+  "add": {
+    "default": {
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[
+    {
+      "label": "当前列表",
+      "value": -1,
+      "field": []
+    },
+    {
+      "label": "订单列表",
+      "value": 1,
+      "download": {
+        "domain": "file",
+        "action": "orderExcel"
+      },
+      "field": [
+      ]
+    }
+  ]

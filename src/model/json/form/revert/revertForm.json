@@ -1,0 +1,294 @@
+{
+  "add": {
+    "default": {
+      "type": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 2
+      },
+      "ptType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "distributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "traceJson": {
+        "skip": false,
+        "require": false,
+        "toStr": true,
+        "type": "array",
+        "value": []
+      },
+      "revertFormGoodsItemsList": {
+        "skip": false,
+        "require": false,
+        "type": "array>RevertFormGoodsItems",
+        "value": []
+      },
+      "revertFormSortList": {
+        "skip": false,
+        "require": false,
+        "type": "array>RevertFormSort",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 2
+      },
+      "ptType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "shopId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "approvalId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "recipient": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "recipientMobile": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "distributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "operatorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "sorterId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "provinceId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "cityId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "cityName": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "districtId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "districtName": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "sysExpressId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "fullAddress": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountPackage": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountPackageActual": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "customerServiceId": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "traceJson": {
+        "skip": false,
+        "require": false,
+        "toStr": true,
+        "type": "array",
+        "value": []
+      },
+      "revertFormGoodsItemsList": {
+        "skip": false,
+        "require": false,
+        "type": "array>RevertFormGoodsItems",
+        "value": []
+      },
+      "revertFormSortList": {
+        "skip": false,
+        "require": false,
+        "type": "array>RevertFormSort",
+        "value": []
+      }
+    }
+  },
+  "other": {
+    "sort": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "distributor": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": null
+      },
+      "type": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "ptType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "shopId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "approvalId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "distributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "operatorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "customerServiceId": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "traceJson": {
+        "skip": false,
+        "require": false,
+        "toStr": true,
+        "type": "array",
+        "value": []
+      },
+      "revertFormGoodsItemsList": {
+        "skip": false,
+        "require": false,
+        "type": "array>RevertFormGoodsItems",
+        "value": []
+      },
+      "revertFormSortList": {
+        "skip": false,
+        "skipFill": true,
+        "require": false,
+        "type": "array>RevertFormSort",
+        "value": []
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": [
+    {
+      "value": 1,
+      "label": "创建"
+    },
+    {
+      "value": 2,
+      "label": "保存"
+    },
+    {
+      "value": 3,
+      "label": "待签署"
+    },
+    {
+      "value": 4,
+      "label": "乙方签署"
+    },
+    {
+      "value": 5,
+      "label": "甲方签署"
+    },
+    {
+      "value": 6,
+      "label": "双方签署"
+    },
+    {
+      "value": 7,
+      "label": "失效"
+    }
+  ],
+  "esignStatus": [
+    {
+      "value": "SIGN_FLOW_UPDATE:signResult:2",
+      "label": "签署完成"
+    },
+    {
+      "value": "SIGN_FLOW_UPDATE:signResult:3",
+      "label": "失败"
+    },
+    {
+      "value": "SIGN_FLOW_UPDATE:signResult:4",
+      "label": "拒签"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "add": {
+    "approvalSubRegionAllocateAgent": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "approvalSubRegionAllocateAgent": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubRegionAllocateAgent",
+        "value": null
+      }
+    },
+    "approvalSubShop": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 2
+      },
+      "approvalSubShop": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubShop",
+        "value": null
+      }
+    },
+    "approvalSubDistributorBalanceChange": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 11
+      },
+      "approvalSubDistributorBalanceChange": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubDistributorBalanceChange",
+        "value": null
+      }
+    },
+    "approvalSubShopCcbPay": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 14
+      },
+      "approvalSubShopCcbPay": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubShopCcbPay",
+        "value": null
+      }
+    },
+    "approvalSubAchieveTransfer": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 15
+      },
+      "approvalSubAchieveTransfer": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubAchieveTransfer",
+        "value": null
+      }
+    },
+    "approvalSubShopChange": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 17
+      },
+      "approvalSubShopChange": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubShopChange",
+        "value": null
+      }
+    },
+    "approvalSubRefund":{
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 18
+      },
+      "approvalSubRefund": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubRefund",
+        "value": null
+      }
+    }
+  },
+  "update": {
+    "approvalSubRefund":{
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 18
+      },
+      "approvalSubRefund": {
+        "skip": false,
+        "require": true,
+        "type": "object>approvalSubRefund",
+        "value": null
+      }
+    },
+    "approvalSubRegionAllocateAgent": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "workflowId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "skipFill": true,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "approvalSubRegionAllocateAgent": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubRegionAllocateAgent",
+        "value": null
+      }
+    },
+    "approvalSubShop": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "workflowId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "skipFill": true,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "approvalSubShop": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubShop",
+        "value": null
+      }
+    },
+    "approvalSubShopChange": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "workflowId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "status": {
+        "skip": false,
+        "skipFill": true,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "approvalSubShopChange": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubShopChange",
+        "value": null
+      }
+    },
+    "approvalSubDistributorBalanceChange": {
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 11
+      },
+      "approvalSubDistributorBalanceChange": {
+        "skip": false,
+        "require": true,
+        "type": "object>ApprovalSubDistributorBalanceChange",
+        "value": null
+      }
+    }
+  }
+}

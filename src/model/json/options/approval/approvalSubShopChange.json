@@ -1,0 +1,20 @@
+{
+  "type": [{
+      "value": 1,
+      "label": "店铺转让"
+    },
+    {
+      "value": 2,
+      "label": "店铺关闭"
+    }
+  ],
+  "workflow": [{
+      "value": 38,
+      "label": "信息审核"
+    },
+    {
+      "value": 39,
+      "label": "保证金"
+    }
+  ]
+}

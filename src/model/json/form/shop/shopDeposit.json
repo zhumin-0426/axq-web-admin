@@ -1,0 +1,36 @@
+{
+  "add": {
+    "default": {
+      "paymentPayer": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 5000
+      },
+      "paymentType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "paymentTime": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "fileJson": {
+        "skip": false,
+        "require": true,
+        "type": "string|min: 4|max: 12",
+        "value": ""
+      }
+    }
+  }
+}

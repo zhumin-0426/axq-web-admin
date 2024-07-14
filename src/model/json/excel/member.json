@@ -1,0 +1,72 @@
+[
+  {
+    "label": "当前列表",
+    "value": -1,
+    "field": []
+  },
+  {
+    "label": "业绩",
+    "value": 1,
+    "download": {
+      "domain": "file",
+      "action": "distributorAchieveExcel"
+    },
+    "field": [
+      {
+        "label": "姓名",
+        "value": "nickname",
+        "select": true
+      },
+      {
+        "label": "电话",
+        "value": "mobile",
+        "select": true
+      },
+      {
+        "label": "业绩",
+        "value": "achieve",
+        "select": true
+      },
+      {
+        "label": "地址",
+        "value": "fullAddress",
+        "select": false
+      }
+    ]
+  },
+  {
+    "label": "账户",
+    "value": 2,
+    "download": {
+      "domain": "file",
+      "action": "distributorWalletExcel"
+    },
+    "field": [
+      {
+        "label": "余额",
+        "value": "balance",
+        "select": true
+      },
+      {
+        "label": "思雪余额",
+        "value": "sixueBalance",
+        "select": true
+      },
+      {
+        "label": "组合",
+        "value": "goodsSeries",
+        "select": true
+      }
+    ]
+  },
+  {
+    "label": "收款",
+    "value": 3,
+    "download": {
+      "domain": "file",
+      "action": "distributorSelfEmployedLaborerExcel"
+    },
+    "field": [
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "add": {
+    "default": {
+      "tmpChecker": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": {}
+      },
+      "tmpAxqDept": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": {}
+      },
+      "checkerList": {
+        "skip": true,
+        "require": false,
+        "type": "array",
+        "value": []
+      },
+      "axqDeptList": {
+        "skip": true,
+        "require": false,
+        "type": "array",
+        "value": []
+      },
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "step": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "checkerIds": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "axqDeptIds": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "tmpChecker": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": {}
+      },
+      "tmpAxqDept": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": {}
+      },
+      "checkerList": {
+        "skip": true,
+        "require": false,
+        "type": "array",
+        "value": []
+      },
+      "axqDeptList": {
+        "skip": true,
+        "require": false,
+        "type": "array",
+        "value": []
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "typeId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "step": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "checkerIds": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "axqDeptIds": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  }
+}

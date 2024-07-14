@@ -1,0 +1,112 @@
+{
+  "add": {
+    "default": {
+      "merchanseName": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "merchanseMobile": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "shopId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "merchanseId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "postId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "branchId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "pubKey": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "operatorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "approvalId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "shopId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "merchanseName": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "merchanseMobile": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "merchanseId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "postId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "branchId": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "pubKey": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+}

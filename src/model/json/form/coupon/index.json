@@ -1,0 +1,88 @@
+{
+  "add": {
+    "default": {
+      "genType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "isExpire": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "expireDate": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "couponItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>CouponItems",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "genType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "isExpire": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "expireDate": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "couponItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>CouponItems",
+        "value": []
+      }
+    }
+  }
+}

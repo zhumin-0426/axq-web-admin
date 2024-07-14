@@ -1,0 +1,30 @@
+{
+  "add": {
+    "default": {
+      "goodsItems": {
+        "skip": true,
+        "require": true,
+        "type": "Object",
+        "value": {}
+      },
+      "goodsItemsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "stockSys": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "stockReal": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

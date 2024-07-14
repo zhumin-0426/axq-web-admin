@@ -1,0 +1,190 @@
+{
+  "add": {
+    "default": {
+      "shopId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "shopDepositId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "transferId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isTransferShopMember": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "receiveId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "receiveShopId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "approvalId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "operatorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "shopDepositId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "isTransferShopMember": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "shopId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "receiveId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "receiveShopId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "receiveDepositAmount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "receiveDepositPayType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "receiveDepositPayTime": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "receiveDepositFileJson": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "transferId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "transferDepositReturnType": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "transferDepositFileJson": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "transferDepositAmount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "transferDepositReturnReceiver": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "transferDepositReturnAccount": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "transferDepositReturnBank": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "transferDepositReturnTime": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "transferDepositReturnRemark": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+}

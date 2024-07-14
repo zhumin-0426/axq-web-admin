@@ -1,0 +1,208 @@
+{
+  "add": {
+    "default": {
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 3
+      },
+      "regionAllocateId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "topDistributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "superiorDistributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "inviteMemberId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "creatorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "applierId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "type": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "regionAllocateId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "topDistributorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "superiorDistributorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "inviteMemberId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "depositPaymentType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "depositPayTime": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "depositIsRequire": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "creatorId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "approvalId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "applierId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "depositPayer": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "depositAmount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "addressFull": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "addressArea": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "addressContact": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      },
+      "fileDeposit": {
+        "skip": false,
+        "require": true,
+        "type": "string|min: 4|max: 12",
+        "value": ""
+      },
+      "fileFixture": {
+        "skip": false,
+        "require": false,
+        "type": "string|min: 4|max: 12",
+        "value": ""
+      },
+      "fileTenancyAgreement": {
+        "skip": false,
+        "require": false,
+        "type": "string|min: 4|max: 12",
+        "value": ""
+      },
+      "provinceId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "cityId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "districtId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "provinceName": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "cityName": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      },
+      "districtName": {
+        "skip": false,
+        "require": true,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+}

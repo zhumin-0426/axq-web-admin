@@ -1,0 +1,52 @@
+{
+  "add": {
+    "default": {
+      "isFree": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "isFree": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "title": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  }
+}

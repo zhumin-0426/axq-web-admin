@@ -1,0 +1,124 @@
+{
+  "add": {
+    "default": {
+      "jobId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "deptId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "nickname": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "username": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "passwd": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "axqJob": {
+        "skip": true,
+        "require": false,
+        "type": "object",
+        "value": {}
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "dept": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "deptId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "jobId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "nickname": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "username": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "passwd": {
+        "skip": false,
+        "skipFill": true,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "accessExtraJson":{
+        "skip": false,
+        "require": false,
+        "isRawValue": true,
+        "type": "Object",
+        "value": {}
+      }
+    }
+  },
+  "other": {
+    "login": {
+      "username": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "passwd": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  }
+}

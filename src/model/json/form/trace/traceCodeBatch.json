@@ -1,0 +1,30 @@
+{
+  "add": {
+    "default": {
+      "generateCount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 9600
+      },
+      "width": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 50
+      },
+      "height": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 50
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string",
+        "value": ""
+      }
+    }
+  }
+}

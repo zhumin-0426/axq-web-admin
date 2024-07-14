@@ -1,0 +1,37 @@
+{
+  "add": {
+    "default": {
+      "documentMakerId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "deliveryId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "traceJson": {
+        "skip": false,
+        "require": false,
+        "toStr": true,
+        "type": "array",
+        "value": []
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "stockInGoodsItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>StockInGoodsItems",
+        "value": []
+      }
+    }
+  }
+}

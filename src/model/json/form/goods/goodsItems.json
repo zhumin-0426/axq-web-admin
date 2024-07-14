@@ -1,0 +1,208 @@
+{
+  "add": {
+    "default": {
+      "goodsSeries": {
+        "skip": true,
+        "require": true,
+        "type": "object",
+        "value": {}
+      },
+      "seriesId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "thumbnail": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "specJson": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountCost": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountCostAbove": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralGiveDividend": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralGiveDivisor": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "integralShopGive": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralExchangeGive": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralExchangeRequire": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "barCode": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "isRequirePackFee": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "goodsSeries": {
+        "skip": true,
+        "require": true,
+        "type": "object",
+        "value": {}
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "goodsId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "seriesId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "thumbnail": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "specJson": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "amount": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "amountCost": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "amountCostAbove": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralGiveDividend": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralGiveDivisor": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 1
+      },
+      "integralShopGive": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralExchangeGive": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "integralExchangeRequire": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "barCode": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "isRequirePackFee": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      }
+    }
+  }
+}

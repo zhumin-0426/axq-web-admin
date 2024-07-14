@@ -1,0 +1,52 @@
+{
+  "add": {
+    "default": {
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "goodsSpecKeyList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsSpecKey",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "description": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "goodsSpecKeyList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsSpecKey",
+        "value": []
+      }
+    }
+  }
+}

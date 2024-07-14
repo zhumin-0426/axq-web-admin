@@ -1,0 +1,100 @@
+{
+    "add":{
+        "default":{
+            "memberId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "amount":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "remark":{
+                "skip": false,
+                "require": false,
+                "type": "string",
+                "value": ""
+            },
+            "axqSelfEmployedLaborerId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "accountOwner":{
+                "skip": false,
+                "require": true,
+                "type": "string",
+                "value": ""
+            },
+            "accountOpen":{
+                "skip": false,
+                "require": true,
+                "type": "string",
+                "value": ""
+            },
+            "account":{
+                "skip": false,
+                "require": true,
+                "type": "string",
+                "value": ""
+            },
+            "time":{
+                "skip": false,
+                "require": true,
+                "type": "string",
+                "value": ""
+            }
+        }
+    },
+    "update":{
+        "default":{
+            "memberId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "axqSelfEmployedLaborerId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "operatorId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": 0
+            },
+            "accountData" : {
+                "skip": false,
+                "require": true,
+                "isRawValue":true,
+                "type": "Object",
+                "value": {
+                  "accountOwner":"",
+                  "accountOpen":"",
+                  "account":"",
+                  "time":""
+                }
+            },
+            "id":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            },
+            "approvalId":{
+                "skip": false,
+                "require": true,
+                "type": "int",
+                "value": ""
+            }
+        }
+    }
+}

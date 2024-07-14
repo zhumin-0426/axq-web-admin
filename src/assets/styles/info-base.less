@@ -1,0 +1,42 @@
+.info-base {
+  background: white;
+
+  .b-block {
+    padding: 10px;
+
+    .b-title {
+      display    : flex;
+      align-items: center;
+      height     : 60px;
+
+      span {
+        font-size: 16px;
+        color    : #000;
+      }
+    }
+
+    .b-box {
+      padding: 20px 0;
+
+      table {
+        width: 100%;
+
+        tbody {
+          tr {
+            &:not(:last-child) {
+              td {
+                padding-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &:not(:last-child) {
+      .b-box {
+        border-bottom: 1px solid #f7f7f7;
+      }
+    }
+  }
+}

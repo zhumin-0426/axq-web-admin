@@ -1,0 +1,32 @@
+[
+  {
+    "label": "当前列表",
+    "value": -1,
+    "field": []
+  },
+  {
+    "label": "时间段",
+    "value": 1,
+    "download": {
+      "domain": "file",
+      "action": "axqFeedbackExcel"
+    },
+    "field": [
+      {
+        "label": "类型",
+        "value": "type",
+        "select": true
+      },
+      {
+        "label": "内容",
+        "value": "content",
+        "select": true
+      },
+      {
+        "label": "时间",
+        "value": "time",
+        "select": true
+      }
+    ]
+  }
+]

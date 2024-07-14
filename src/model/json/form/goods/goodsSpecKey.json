@@ -1,0 +1,82 @@
+{
+  "add": {
+    "default": {
+      "tmpInputValue": {
+        "skip": true,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "tmpInputVisible": {
+        "skip": true,
+        "require": false,
+        "type": "boolean",
+        "value": false
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "goodsSpecValueList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsSpecValue",
+        "value": []
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "tmpInputValue": {
+        "skip": true,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "tmpInputVisible": {
+        "skip": true,
+        "require": false,
+        "type": "boolean",
+        "value": false
+      },
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": ""
+      },
+      "specCategoryId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "name": {
+        "skip": false,
+        "require": true,
+        "type": "string|min:4|max:12",
+        "value": ""
+      },
+      "status": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "goodsSpecValueList": {
+        "skip": false,
+        "require": true,
+        "type": "array>GoodsSpecValue",
+        "value": []
+      }
+    }
+  }
+}

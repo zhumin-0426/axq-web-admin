@@ -1,0 +1,40 @@
+{
+  "add": {
+    "default": {
+      "amount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "amount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "quantity": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      }
+    }
+  }
+}

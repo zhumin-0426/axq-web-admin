@@ -1,0 +1,86 @@
+{
+  "add": {
+    "default": {
+      "distributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "balanceType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "amount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "returnData" : {
+        "skip": false,
+        "require": true,
+        "isRawValue":true,
+        "type": "Object",
+        "value": {
+          "accountOwner":"",
+          "accountOpen":"",
+          "account":""
+        }
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  },
+  "update": {
+    "default": {
+      "id": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "distributorId": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "balanceType": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 1
+      },
+      "amount": {
+        "skip": false,
+        "require": true,
+        "type": "int",
+        "value": 0
+      },
+      "returnData" : {
+        "skip": false,
+        "require": true,
+        "isRawValue":true,
+        "type": "Object",
+        "value": {
+          "accountOwner":"",
+          "accountOpen":"",
+          "account":""
+        }
+      },
+      "remark": {
+        "skip": false,
+        "require": false,
+        "type": "string|min:4|max:12",
+        "value": ""
+      }
+    }
+  }
+}

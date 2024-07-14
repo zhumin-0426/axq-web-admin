@@ -1,0 +1,18 @@
+{
+  "add": {
+    "default": {
+      "documentMakerId": {
+        "skip": false,
+        "require": false,
+        "type": "int",
+        "value": 0
+      },
+      "stockCheckGoodsItemsList": {
+        "skip": false,
+        "require": true,
+        "type": "array>StockCheckGoodsItems",
+        "value": []
+      }
+    }
+  }
+}
